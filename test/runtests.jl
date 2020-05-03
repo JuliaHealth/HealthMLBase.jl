@@ -1,6 +1,6 @@
-using HealthMLBase
-using Test
+import HealthMLBase
+import Test
 
-@testset "HealthMLBase.jl" begin
-    # Write your own tests here.
+Test.@testset "HealthMLBase.jl" begin
+    Test.@test HealthMLBase.greet() == nothing
 end
