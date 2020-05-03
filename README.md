@@ -7,4 +7,4 @@
 
 This is a shared namespace for health machine learning and health artificial intelligence.
 
-We use [MLJModelInterface](https://github.com/alan-turing-institute/MLJModelInterface.jl).
+HealthMLBase rexports [MLJModelInterface](https://github.com/alan-turing-institute/MLJModelInterface.jl).
