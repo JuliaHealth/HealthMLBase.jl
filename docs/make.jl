@@ -1,6 +1,11 @@
-using Documenter, HealthMLBase
+import Pkg
+Pkg.add(Pkg.PackageSpec(name = "Documenter",
+                        rev = "master"))
 
-makedocs(;
+import Documenter
+import HealthBase
+
+Documenter.makedocs(;
     modules=[HealthMLBase],
     format=Documenter.HTML(),
     pages=[
@@ -12,6 +17,11 @@ makedocs(;
     assets=String[],
 )
 
-deploydocs(;
-    repo="github.com/JuliaHealth/HealthMLBase.jl",
+Documenter.deploydocs(;
+    repo = "github.com/JuliaHealth/HealthMLBase.jl",
+    branch = "gh-pages",
+
+    push_preview = true,
+    repo_previews = "github.com/JuliaHealth/HealthMLBase.jl-previews",
+    branch_previews = "gh-pages",
 )
