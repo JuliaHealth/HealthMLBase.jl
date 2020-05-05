@@ -6,21 +6,21 @@ This is the documentation for [HealthMLBase](https://github.com/JuliaHealth/Heal
 ```
 
 ```@docs
-fit
-fit!
-inverse_transform
-inverse_transform!
-predict
-predict!
-predict_log_proba
-predict_log_proba!
-predict_mean
-predict_median
-predict_mode
-predict_proba
-predict_proba!
-transform
-transform!
+HealthMLBase.fit
+HealthMLBase.fit!
+HealthMLBase.inverse_transform
+HealthMLBase.inverse_transform!
+HealthMLBase.predict
+HealthMLBase.predict!
+HealthMLBase.predict_log_proba
+HealthMLBase.predict_log_proba!
+HealthMLBase.predict_mean
+HealthMLBase.predict_median
+HealthMLBase.predict_mode
+HealthMLBase.predict_proba
+HealthMLBase.predict_proba!
+HealthMLBase.transform
+HealthMLBase.transform!
 ```
 
 ```@autodocs
