@@ -15,7 +15,7 @@ export predict_log_proba
 export predict_log_proba!
 export predict_proba
 export predict_proba!
-export ransform!
+export transform!
 
 """
     fit!
