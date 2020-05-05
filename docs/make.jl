@@ -5,8 +5,10 @@ Pkg.add(Pkg.PackageSpec(name = "Documenter",
 import Documenter
 import HealthMLBase
 
+const MLJModelInterface = HealthMLBase.MLJModelInterface
+
 Documenter.makedocs(;
-    modules=[HealthMLBase],
+    modules=[HealthMLBase, MLJModelInterface],
     format=Documenter.HTML(),
     pages=[
         "Home" => "index.md",
