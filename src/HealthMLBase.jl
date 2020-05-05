@@ -1,7 +1,5 @@
 module HealthMLBase
 
-greet() = print("Hello World!")
-
 import Reexport
 
 Reexport.@reexport using HealthBase
