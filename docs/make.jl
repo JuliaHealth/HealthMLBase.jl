@@ -3,7 +3,7 @@ Pkg.add(Pkg.PackageSpec(name = "Documenter",
                         rev = "master"))
 
 import Documenter
-import HealthBase
+import HealthMLBase
 
 Documenter.makedocs(;
     modules=[HealthMLBase],
