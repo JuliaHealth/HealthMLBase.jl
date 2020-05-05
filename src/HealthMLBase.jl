@@ -2,10 +2,9 @@ module HealthMLBase
 
 greet() = print("Hello World!")
 
-import HealthBase
-import MLJModelInterface
 import Reexport
 
+Reexport.@reexport using HealthBase
 Reexport.@reexport using MLJModelInterface
 
 export fit!
