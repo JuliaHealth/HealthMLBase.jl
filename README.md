@@ -7,6 +7,6 @@
 
 This is a shared namespace for health machine learning and health artificial intelligence.
 
-HealthMLBase rexports the following packages:
+HealthMLBase re-exports the following packages:
 - [HealthBase](https://github.com/JuliaHealth/HealthBase.jl)
-- [MLJModelInterface](https://github.com/alan-turing-institute/MLJModelInterface.jl).
+- [MLJModelInterface](https://github.com/alan-turing-institute/MLJModelInterface.jl)
