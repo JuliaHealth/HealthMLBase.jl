@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.com/JuliaHealth/HealthMLBase.jl.svg?branch=master)](https://travis-ci.com/JuliaHealth/HealthMLBase.jl)
 [![Codecov](https://codecov.io/gh/JuliaHealth/HealthMLBase.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/JuliaHealth/HealthMLBase.jl)
 
-This is a shared namespace for health machine learning and health artificial intelligence.
+This is a shared namespace for data science and machine learning (ML) in health and medicine.
 
 HealthMLBase re-exports the following packages:
 - [HealthBase](https://github.com/JuliaHealth/HealthBase.jl)
