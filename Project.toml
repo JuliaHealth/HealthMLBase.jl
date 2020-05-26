@@ -1,7 +1,7 @@
 name = "HealthMLBase"
 uuid = "607c11b8-770f-4df0-ace8-6eaa1ea2719e"
 authors = ["JuliaHealth contributors"]
-version = "0.1.1"
+version = "0.1.2"
 
 [deps]
 HealthBase = "94e1309d-ccf4-42de-905f-515f1d7b1cae"
@@ -10,7 +10,7 @@ Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
 [compat]
 HealthBase = "0.1"
-MLJModelInterface = "0.2.4"
+MLJModelInterface = "0.2.6"
 Reexport = "0.2"
 julia = "1.3"
 
