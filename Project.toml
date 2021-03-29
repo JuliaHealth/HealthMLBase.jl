@@ -1,7 +1,7 @@
 name = "HealthMLBase"
 uuid = "607c11b8-770f-4df0-ace8-6eaa1ea2719e"
 authors = ["Dilum Aluthge", "contributors"]
-version = "0.4.0-DEV"
+version = "0.4.0"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
