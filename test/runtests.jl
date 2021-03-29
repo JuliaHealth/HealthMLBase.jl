@@ -1,5 +1,5 @@
-import HealthMLBase
-import Test
+using HealthMLBase
+using Test
 
-Test.@testset "HealthMLBase.jl" begin
+@testset "HealthMLBase.jl" begin
 end
