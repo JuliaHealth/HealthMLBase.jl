@@ -1,21 +1,24 @@
-import Documenter
-import HealthMLBase
+using HealthMLBase
+using Documenter
 
-Documenter.makedocs(;
+DocMeta.setdocmeta!(HealthMLBase, :DocTestSetup, :(using HealthMLBase); recursive=true)
+
+makedocs(;
     modules=[HealthMLBase],
-    format=Documenter.HTML(),
+    authors="Dilum Aluthge and contributors",
+    repo="https://github.com/JuliaHealth/HealthMLBase.jl/blob/{commit}{path}#{line}",
+    sitename="HealthMLBase.jl",
+    format=Documenter.HTML(;
+        prettyurls=get(ENV, "CI", "false") == "true",
+        canonical="https://JuliaHealth.github.io/HealthMLBase.jl",
+        assets=String[],
+    ),
     pages=[
         "Home" => "index.md",
     ],
-    repo="https://github.com/JuliaHealth/HealthMLBase.jl/blob/{commit}{path}#L{line}",
-    sitename="HealthMLBase.jl",
-    authors="JuliaHealth contributors",
-    assets=String[],
     strict=true,
 )
 
-Documenter.deploydocs(;
-    repo = "github.com/JuliaHealth/HealthMLBase.jl",
-    branch = "gh-pages",
-    push_preview = false,
+deploydocs(;
+    repo="github.com/JuliaHealth/HealthMLBase.jl",
 )
